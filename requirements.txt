@@ -1,0 +1,24 @@
+# Core
+numpy
+pandas>=2.0
+python-dotenv
+
+# Knowledge graph
+neo4j>=5.0
+
+# Document ingestion (DOCX)
+python-docx
+
+# LLM clients
+openai>=1.0
+ollama
+langchain-ollama          # Pulled in for OllamaEmbeddings
+
+# Notebook environment (Evaluation.ipynb and GraphRAG main.ipynb)
+jupyter
+ipykernel
+ipywidgets                # tqdm progress bars render correctly
+
+# Optional: PDF ingestion (not in the active pipeline; uncomment if
+# DOCUMENT_FORMATS in graphrag/config.py is set to include "pdf").
+# gmft
